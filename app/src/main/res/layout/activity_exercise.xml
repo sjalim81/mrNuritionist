@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@drawable/sky"
+    tools:context=".ExerciseActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="304dp"
+        android:layout_height="69dp"
+        android:layout_x="24dp"
+        android:layout_y="53dp"
+        android:background="@drawable/ic_launcher_foreground"
+
+        android:text="Learn about three types of Exercise"
+        android:textColor="#ff22"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="60dp"/>
+
+    <Button
+        android:id="@+id/button2Id"
+        android:layout_width="274dp"
+        android:layout_height="54dp"
+        android:layout_x="33dp"
+        android:layout_y="170dp"
+        android:background="@color/colorPrimary"
+        android:text="Balance"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="60dp"/>
+
+    <Button
+        android:id="@+id/button3Id"
+        android:layout_width="274dp"
+        android:layout_height="54dp"
+        android:layout_x="36dp"
+        android:layout_y="272dp"
+        android:background="@color/colorPrimary"
+        android:text="Flexibility"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="60dp"/>
+
+    <Button
+        android:id="@+id/button4Id"
+        android:layout_width="274dp"
+        android:layout_height="54dp"
+        android:layout_x="33dp"
+        android:layout_y="364dp"
+        android:background="@color/colorPrimary"
+        android:text="Strength"
+        android:textColor="#FF0000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="60dp"/>
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button5Id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="114dp"
+        android:layout_y="465dp"
+        android:textColor="#ff22"
+        android:textSize="20dp"
+
+        android:text="NEXT"
+        android:layout_marginLeft="240dp"/>
+
+
+
+
+
+</LinearLayout>

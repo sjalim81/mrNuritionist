@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "43582738469",
+    "firebase_url": "https://mr-nuitritionist-chat.firebaseio.com",
+    "project_id": "mr-nuitritionist-chat",
+    "storage_bucket": "mr-nuitritionist-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43582738469:android:364adcddc719ff1d066fcc",
+        "android_client_info": {
+          "package_name": "com.example.mrnuitritionistchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43582738469-jbl7hp7tonqlopa5sgp54l4h8gtqgjh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiFSXTytNOjCZBBhV33I-fPK288za_rrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43582738469-jbl7hp7tonqlopa5sgp54l4h8gtqgjh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43582738469:android:c66be492b69417cd066fcc",
+        "android_client_info": {
+          "package_name": "com.example.mrnuritionist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "43582738469-jbl7hp7tonqlopa5sgp54l4h8gtqgjh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiFSXTytNOjCZBBhV33I-fPK288za_rrs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "43582738469-jbl7hp7tonqlopa5sgp54l4h8gtqgjh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
