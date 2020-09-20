@@ -7,18 +7,14 @@
     tools:context=".SetupActivity">
 
 
-
-
     <EditText
         android:id="@+id/setup_username"
         android:layout_width="308dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="44dp"
-        android:layout_marginTop="349dp"
         android:layout_marginEnd="59dp"
         android:layout_marginBottom="337dp"
         android:ems="10"
@@ -33,30 +29,25 @@
         android:layout_width="304dp"
         android:layout_height="46dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="46dp"
-        android:layout_marginTop="426dp"
         android:layout_marginEnd="61dp"
         android:layout_marginBottom="259dp"
         android:ems="10"
         android:gravity="start|top"
         android:hint="Full Name"
         android:inputType="textMultiLine"
-        android:textColorHint="#514747"
-      />
+        android:textColorHint="#514747" />
 
     <EditText
         android:id="@+id/setup_country_name"
         android:layout_width="306dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="43dp"
-        android:layout_marginTop="510dp"
         android:layout_marginEnd="62dp"
         android:layout_marginBottom="176dp"
         android:ems="10"
@@ -71,18 +62,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="148dp"
-        android:layout_marginTop="616dp"
         android:layout_marginEnd="162dp"
         android:layout_marginBottom="67dp"
-        android:text="Save"
-     />
+        android:text="Save" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView_userProfile"
         android:layout_width="168dp"
         android:layout_height="163dp"
         android:layout_alignParentEnd="true"

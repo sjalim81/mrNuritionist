@@ -65,10 +65,10 @@
             android:src="@drawable/ic_baseline_directions_run_24" />
 
         <ImageButton
-            android:id="@+id/more_imageButton"
+            android:id="@+id/signout_imageButton"
             android:layout_width="159dp"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_baseline_info_24" />
+            android:src="@drawable/ic_baseline_exit_to_app_24" />
 
         <ImageButton
             android:id="@+id/food_recipe_imageButton"

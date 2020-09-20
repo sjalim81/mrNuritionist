@@ -46,7 +46,7 @@ class LoginActivity extends AppCompatActivity {
         mAuth = FirebaseAuth.getInstance();
 
 
-        //NeedNewAccountLink = (TextView) findViewById(R.id.register_account_link);
+        NeedNewAccountLink = (TextView) findViewById(R.id.signUp);
         UserEmail = (EditText) findViewById(R.id.login_email);
         UserPassword = (EditText) findViewById(R.id.login_password);
         LoginButton = (Button) findViewById(R.id.login_button);
@@ -150,13 +150,6 @@ class LoginActivity extends AppCompatActivity {
 
 
 
-    private void SendUserToLoginActivity()
-    {
-        Intent mainIntent = new Intent(LoginActivity.this, LoginActivity.class);
-        mainIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
-        startActivity(mainIntent);
-        finish();
-    }
 
 
 

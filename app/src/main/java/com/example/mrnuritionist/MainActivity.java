@@ -8,10 +8,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public
 class MainActivity extends AppCompatActivity {
     ImageButton bmiImageButton, bodyCalculatorImageButton, browserImageButton, exerciseImageButton, foodRecipeImageButton, homeImageButton;
     ImageButton stopWatchImageButton, reminderImageButton;
+    ImageButton signOutImageButton;
+    FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +30,20 @@ class MainActivity extends AppCompatActivity {
         homeImageButton = findViewById(R.id.home_imageButton);
         stopWatchImageButton = findViewById(R.id.stop_watch_imageButton);
         reminderImageButton = findViewById(R.id.reminder_imageButton);
+        signOutImageButton=findViewById(R.id.signout_imageButton);
+
+        mAuth =FirebaseAuth.getInstance();
+
+
+        signOutImageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                mAuth.signOut();
+                Intent intent = new Intent(MainActivity.this,LoginActivity.class);
+                startActivity(intent);
+
+            }
+        });
 
 
 
